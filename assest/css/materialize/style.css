@@ -3881,7 +3881,11 @@ h1
     margin: 0.3rem 0 0.68rem 0;
 }
 h1 a > img{
-        width: 2.6rem;
+    width: 7rem;
+    background-color: #fff;
+    position: relative;
+    top: -22px;
+    padding: 0.5rem;
 }
 
 h2
@@ -8225,7 +8229,7 @@ nav.display-none.search-sm .nav-wrapper form .input-field input.search-box-sm:no
 
 .sidenav
 {
-    top: 64px;
+    top: 10px;
 
     overflow: hidden;
 
