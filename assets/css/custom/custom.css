@@ -1,0 +1,53 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.brandName-desktop{
+       top: -24px;
+    position: relative;
+    font-size: 1.4rem;
+}
+#about.modal{
+    width:35%!important;
+}
+#about.modal.modal-fixed-footer{
+    max-height:40%;
+    height:100%
+}
+.modal .modal-content .about-1-img {
+   width: 200px!important;
+    margin-top: 3rem;
+}
+.customPosition{
+    position: relative;
+}
+.searchIconCustomPosition{
+        position: absolute;
+    top: 0;
+    right: 10px;
+}
+.chip-ellips{
+    max-width: 310px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.textCapitalize{
+        text-transform: capitalize;
+    font-weight: 600;
+}
+.table.dataTable{
+    width:100%!important;
+}
+.savedSearchDropdown{
+    min-width:300px!important;
+    width:100%;!important;
+}
