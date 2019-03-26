@@ -22,5 +22,20 @@ $(document).ready(function(){
 			 $(".cardSearchPortal").css('min-height', (newHeight-120));
 		});   
  
+});
+
+$(".db_button").click(function(e){
+    $(".db_dropdown").show();
+     e.stopPropagation();
     
+});
+
+$(".db_dropdown").click(function(e){
+ var target = $('.dropdownval').val();
+      $('#dropdownMenu1').val(target);
+    e.stopPropagation();
+});
+
+$(document).click(function(){
+    $(".db_dropdown").hide();
 });
